@@ -49,6 +49,7 @@ const App = () => {
   },[]);
 
   useEffect(()=>{
+// eslint-disable-next-line
     setItems(originalItems.filter((consult)=>{return(consult.id==query || ((consult.name).toUpperCase()).includes(query.toUpperCase()))}));
     }
   ,[query]);

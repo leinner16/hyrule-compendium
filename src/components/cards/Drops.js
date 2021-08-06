@@ -2,6 +2,7 @@ import React from 'react'
 
 const Drops = (drops,itemId) => {
 let arrayNull
+// eslint-disable-next-line
     (drops.drops == null || drops.drops == undefined)? arrayNull=true:arrayNull=false;
     
     return (
